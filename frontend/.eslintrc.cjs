@@ -1,3 +1,5 @@
+import { IoAnalyticsOutline } from "react-icons/io5"
+
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
@@ -14,8 +16,8 @@ module.exports = {
   rules: {
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
+      'warn', { allowConstantExport: true }, ],
+    "react/prop-types":"off",
   },
 }
+
